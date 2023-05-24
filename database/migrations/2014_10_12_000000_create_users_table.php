@@ -8,6 +8,7 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * Migration added for usertype
      */
     public function up(): void
     {
