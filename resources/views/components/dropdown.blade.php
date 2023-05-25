@@ -26,7 +26,10 @@ switch ($width) {
 @endphp
 
 <div class="relative" x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
-    <div @click="open = ! open">
+    <div @click="open = ! open" style="
+    margin-bottom: 21px;
+    margin-left: -87px;
+">
         {{ $trigger }}
     </div>
 
